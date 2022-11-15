@@ -61,9 +61,7 @@ Route::get('/email', function () {
     );
 });
 
-Route::get('/api/series', function () {
-    return \App\Models\Series::all();
-});
+
 
 
 //Route::post('/series/destroy/{serie}', [SeriesController::class, 'destroy'])

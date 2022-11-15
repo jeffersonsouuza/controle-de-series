@@ -19,4 +19,11 @@ class Episode extends Model
         return $this->belongsTo(Season::class);
     }
 
+//    protected function watched(): Attribute
+//    {
+//        return new Attribute(
+//            get: fn($watched) => (bool) $watched
+//        );
+//    }
+
 }
